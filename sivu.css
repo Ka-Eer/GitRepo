@@ -1,0 +1,85 @@
+body {
+    background-color:#99cdff ;
+}
+.container {
+    display: flex;
+}
+.all {
+    background-image: linear-gradient(#008CFF, #005499);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color:#015270;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    padding: 3%;
+    border-top-left-radius: 3em;
+    border-top-right-radius: 3em;
+    color: white;
+    display: flex;
+}
+header h1 {
+    margin: 0 0 0 20px;
+    font-size: 2.5em;
+    text-shadow: 10px 10px 2px rgba(0, 0, 0, 0.5);
+}
+ul {
+    list-style: none;
+    display:flex;
+    gap: 4em;
+    justify-items: end;
+    margin: 0px 0px 0px auto;
+    font-size: 2em;
+    text-shadow: 10px 10px 2px rgba(0, 0, 0, 0.5);
+}
+ul li:hover {
+    cursor: pointer;
+}
+h2 {
+    color: white;
+    margin: 4%;
+    font-size: 3em;
+    display: flex;
+    text-shadow: 10px 10px 2px rgba(0, 0, 0, 0.5)
+}
+p {
+    color: white;
+    margin: 4%;
+    max-width: 30vw;
+    font-size: 1.5em;
+    display: flex;
+}
+img {
+    display: flex;
+    margin: 1em 1em 1em auto;
+    max-width: 50vw;
+    max-height: 60vh;
+
+}
+button {
+    margin: 4%;
+    padding: 1em;
+    font-size: 1em;
+    border-radius: 1em;
+    background-image: linear-gradient(to right, rgb(0, 89, 253), rgb(0, 49, 105));
+    color: white;
+}
+button:hover {
+    cursor: pointer;
+}
+footer {
+    background-color:#015270;
+    padding: 1.5em;
+    border-bottom-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    color: white;
+    display: flex;
+}
+footer p {
+    margin: 0;
+    font-size: 1em;
+    display: flex;
+}
